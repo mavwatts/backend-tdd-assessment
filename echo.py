@@ -25,7 +25,7 @@ def main(args):
 
     msg = args.text
     if args.upper:
-        msg = msg.upper()
+        msg = msg.upper()     
     if args.lower:
         msg = msg.lower()
     if args.title: 

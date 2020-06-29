@@ -150,7 +150,7 @@ class TestEcho(unittest.TestCase):
     def test_all_options(self):
         args = ["-tul", "hElLo wORld"]
         with Capturing() as output:
-            self.module.main(args)        
+            self.module.main(args)           
         assert output, "The program did not print anything."
         self.assertEqual(output[0], 'Hello World')
 
